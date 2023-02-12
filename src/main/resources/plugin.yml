@@ -1,0 +1,18 @@
+name: MCPets
+main: fr.nocsy.mcpets.MCPets
+version: 3.0.3
+description: MCModels affiliate plugin. Join the workshop !
+depend:
+  - MythicMobs
+  - OrangeEngine
+softdepend:
+  - WorldGuard
+  - LuckPerms
+author: Nocsy
+api-version: 1.17
+commands:
+  mcpets:
+    description: Command to manage your pets
+    Usage: /mcpets
+    permission: mcpets.use
+    aliases: [ pets ]
