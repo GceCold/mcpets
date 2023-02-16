@@ -327,9 +327,6 @@ public class PetListener implements Listener {
         if (modelEntity == null)
             return;
 
-        if (!e.getMount().hasMetadata("orange_driver"))
-            e.getMount().setMetadata("orange_driver", new FixedMetadataValue(OrangeEngine.getInstance(), "walk"));
-
         Pet pet = Pet.getFromEntity(e.getMount());
 
         if (pet == null)

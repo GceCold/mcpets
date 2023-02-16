@@ -83,6 +83,7 @@ public class MCPets extends JavaPlugin {
         PetPlaceholdersManager.registerPlaceholders();
 
         getLog().info("-=-=-=-= MCPets loaded =-=-=-=-");
+        getLog().info("      OrangeEngine兼容版");
         getLog().info("      Plugin made by Nocsy");
         getLog().info("-=-=-=-= -=-=-=-=-=-=- =-=-=-=-");
 
